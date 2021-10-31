@@ -8,7 +8,7 @@ import { Container, Row } from 'react-bootstrap';
 import { Card } from './interfaces/card';
 
 function App():JSX.Element {
-  const [activeCard, setActiveCard] = useState<Card>(CARDS[0] as unknown as Card);
+  const [activeCard, setActiveCard] = useState<Card>(CARDS[0] as Card);
   
   return (
     <Container className="App">
