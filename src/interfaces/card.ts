@@ -1,10 +1,10 @@
 //export type CardType = 'TeachingEasy'|'TeachingHard'|'Microaggression'
 
 export interface Card{
-    ID:number
-    Kind:CardKind
-    Prompt:string
-    Answer:string
+    id:number
+    kind:CardKind
+    prompt:string
+    answer:string
 }
 
 export enum CardKind{
