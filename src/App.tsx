@@ -15,7 +15,7 @@ function App():JSX.Element {
     <Container className="App">
       <Row>
      <ControlPanel 
-     setCard={setActiveCard}
+      setCard={setActiveCard}
       reveal ={reveal} 
      answerRevealed={answerRevealed}>
      </ControlPanel>
