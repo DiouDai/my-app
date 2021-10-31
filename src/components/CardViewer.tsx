@@ -1,3 +1,6 @@
+import {Col} from 'react-bootstrap';
+
+
 export function CardViewer():JSX.Element{
-    return <div>CardViewer</div>
+    return <Col>CardViewer</Col>
 }
