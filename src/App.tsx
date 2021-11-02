@@ -26,10 +26,9 @@ function App():JSX.Element {
       setCard={setActiveCard}
       reveal ={reveal} 
       deck={deck}
-     answerRevealed={answerRevealed}>
-     </ControlPanel>
+     answerRevealed={answerRevealed}></ControlPanel>
      <CardViewer card = {activeCard} answerRevealed={answerRevealed}></CardViewer>
-     <AddCardModal visible={visible} setVisible={setVisible} addCard={addCard}> </AddCardModal>
+     <AddCardModal visible={visible} setVisible={setVisible} addCard={addCard}></AddCardModal>
      </Row>
     </Container>
   );
