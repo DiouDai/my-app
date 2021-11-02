@@ -9,7 +9,7 @@ export function AddCardModal({ visible, setVisible, addCard}:
          const[answer, setAnswer] = useState<string>("ANSWER TEXT");
 
          function saveCard(){
-             console.log("SAVING", prompt,answer);
+            console.log("SAVING", prompt,answer);
              addCard({
                 id: Math.random(),
                 kind:"Custom",

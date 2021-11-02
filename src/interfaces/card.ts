@@ -2,13 +2,8 @@
 
 export interface Card{
     id:number
-    kind:CardKind
+    kind:String
     prompt:string
     answer:string
 }
 
-export enum CardKind{
-    TeachingEasy= "Teaching Prompt Round 1",
-    TeachingHard = "Teaching Prompt Round 2",
-    Microaggressions= "Microaggresions Round"
-}
