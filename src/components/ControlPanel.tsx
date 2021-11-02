@@ -1,6 +1,5 @@
 import { Button, Col } from 'react-bootstrap';
 import { Card } from '../interfaces/card';
-import CARDS from '../assets/cards.json'
 import { getRandomElement } from '../utilties/data';
 import { UserList } from './UserList';
 import { useState } from 'react';
